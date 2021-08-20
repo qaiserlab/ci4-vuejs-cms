@@ -1,0 +1,332 @@
+.ui-label .badge {
+  font-size: 15px;
+}
+
+.ui-checktree ul {
+  list-style: none;
+}
+
+.ui-clock .input-area {
+  display: block;
+}
+
+.ui-clock .input-area input {
+  width: 48px;
+  display: inline-block;
+  text-align: center;
+}
+
+.ui-combobox {
+  position: relative;
+  display: block;
+}
+
+.ui-combobox .input {
+  position: relative;
+  width: 100%;
+  padding: 8px;
+  padding-left: 16px;
+  background: #ffffff;
+  border-radius: 4px;
+  border: solid #c0c0c0 1px;
+  min-height: 38px;
+  cursor: pointer;
+}
+
+.ui-combobox .input .placeholder {
+  color: #828282;
+}
+
+.ui-combobox .input i {
+  position: absolute;
+  right: 8px;
+  top: 11px;
+  color: #828282;
+}
+
+.ui-combobox .dropdown {
+  width: 100%;
+  position: absolute;
+  left: 0;
+  top: 38px;
+  z-index: 1000;
+  background: #ffffff;
+  height: 160px;
+  display: block;
+  border: solid #c0c0c0 1px;
+  padding: 4px;
+  padding-top: 40px;
+  overflow-y: auto;
+}
+
+.ui-combobox .dropdown .search-area {
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  padding: 8px;
+  background: #ffffff;
+}
+
+.ui-combobox .dropdown .search-area input {
+  width: 100%;
+  border: solid #c0c0c0 1px;
+}
+
+.ui-combobox .dropdown a {
+  display: block;
+  color: #000000;
+  padding: 4px;
+}
+
+.ui-combobox .dropdown a:hover {
+  background: #20a8d8;
+  color: #ffffff;
+  text-decoration: none;
+}
+
+.ui-select2 .select2.select2-container.select2-container--bootstrap4.select2-container--above {
+  width: 100%;
+}
+
+.ui-textarea textarea {
+  width: 100%;
+}
+
+.ui-datatable th, .ui-datatable td {
+  vertical-align: middle;
+}
+
+.ui-datagrid .thead {
+  width: calc(100% - 17px);
+}
+
+.ui-datagrid .thead th {
+  border: none;
+}
+
+.ui-datagrid .tbody {
+  overflow: auto;
+  margin-top: -18px;
+}
+
+.ui-card .card-body {
+  position: relative;
+}
+
+.ui-card .card-body .card-loading {
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  background: #ffffff;
+  opacity: 0.8;
+}
+
+.ui-card .card-body .card-loading i {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  margin-left: -16px;
+  margin-top: -16px;
+  font-size: 32px;
+  color: #4dbd74;
+}
+
+.ui-counterbox h6 {
+  color: #ffffff;
+  margin-left: 8px;
+}
+
+.ui-datepicker .select {
+  display: inline-block;
+}
+
+.ui-datepicker .yearly {
+  width: 90px;
+}
+
+.ui-datepicker .monthly {
+  width: 120px;
+}
+
+.ui-datepicker .daily {
+  width: 70px;
+}
+
+.ui-directory .left-pane {
+  float: left;
+  width: 128px;
+}
+
+.ui-directory .left-pane .fa {
+  font-size: 32px;
+}
+
+.ui-directory .right-pane {
+  float: right;
+  width: calc(100% - 128px);
+  padding-left: 16px;
+}
+
+.ui-directory .left-pane .btn {
+  display: block;
+  width: 100%;
+  color: #000000;
+  border-radius: 0;
+}
+
+.ui-directory .left-pane .btn.active {
+  background: transparent;
+  border: none;
+  border-bottom: solid #20a8d8 4px;
+}
+
+.ui-floatarea {
+  position: fixed;
+  right: 16px;
+  bottom: 64px;
+}
+
+.ui-floatarea button {
+  width: 48px;
+  height: 48px;
+  font-size: 16px;
+  border-radius: 128px;
+  box-shadow: 2px 2px 2px 2px #c0c0c0;
+  margin-right: 8px;
+}
+
+.ui-floatarea button.btn-label {
+  width: auto;
+  border-radius: 4px;
+}
+
+.ui-floatarea button.btn-label i.fa {
+  margin-right: 4px;
+}
+
+.ui-gallery .browser .btn {
+  padding: 8px !important;
+}
+
+.ui-gallery .browser .btn-danger {
+  color: #ffffff !important;
+}
+
+.ui-gallery .browser .btn-danger:hover {
+  background: #f75453;
+}
+
+.ui-gallery .browser section .btn.btn-ghost-secondary {
+  color: #828282;
+  border: none;
+}
+
+.ui-gallery .browser section .btn.btn-ghost-secondary:hover {
+  color: #000000;
+  background: none;
+  border: none;
+}
+
+.ui-gallery figure {
+  border: dotted #c0c0c0 1px;
+  cursor: pointer;
+}
+
+.ui-gallery figure img {
+  width: 100%;
+  margin-bottom: 8px;
+}
+
+.ui-gallery figure a {
+  display: block;
+  text-align: center;
+  color: #828282;
+}
+
+.ui-gallery .browser .img-thumbnail {
+  display: block;
+  height: 100px;
+  text-align: center;
+  margin: 0;
+}
+
+.ui-gallery .browser .img-thumbnail img {
+  height: 100%;
+  max-width: 100%;
+}
+
+.ui-gallery .browser header {
+  text-align: center;
+}
+
+.ui-gallery .browser section {
+  height: 320px;
+  overflow-y: scroll;
+}
+
+.ui-gallery .browser section footer {
+  padding-top: 3px;
+  padding-bottom: 3px;
+  display: block;
+  width: 100%;
+  text-align: center;
+}
+
+.ui-gallery .browser section footer a {
+  font-weight: bold;
+  font-size: 18px;
+  color: #1985ac;
+  margin-left: 3px;
+  margin-right: 3px;
+}
+
+.ui-gallery .browser section footer a:hover {
+  text-decoration: none;
+  color: #13637f;
+}
+
+.ui-invalid-feedback {
+  display: block;
+}
+
+.ui-modal .modal {
+  z-index: 10001;
+}
+
+.ui-thumbnail img {
+  width: 100%;
+}
+
+.ui-tredit .tr-container {
+  height: 300px;
+  overflow-y: scroll;
+  border: solid #c0c0c0 1px;
+  margin-bottom: 16px;
+}
+
+.ui-tredit .right-pane {
+  float: right;
+  width: auto;
+}
+
+.ui-uploader img {
+  width: 100%;
+  margin-bottom: 8px;
+}
+
+.ui-number {
+  display: block;
+  position: relative;
+}
+
+.ui-number b {
+  position: absolute;
+  left: 14px;
+  top: -8px;
+  font-size: 9px;
+  background: #4dbd74;
+  color: #ffffff;
+}

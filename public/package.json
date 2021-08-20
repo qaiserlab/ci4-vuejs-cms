@@ -1,0 +1,12 @@
+{
+  "dependencies": {
+    "bootstrap": "^4.5.0",
+    "font-awesome": "^4.7.0",
+    "jquery": "^3.5.1",
+    "jssocials": "^1.5.0",
+    "jstree": "^3.3.10",
+    "trumbowyg": "^2.21.0",
+    "vue": "^2.6.11",
+    "vue-tables-2": "^2.0.30"
+  }
+}
