@@ -164,6 +164,46 @@
        inkscape:connector-curvature="0"
        sodipodi:nodetypes="cccccccc" />
     <g
+       id="g1094"
+       transform="translate(-80.473755,-17.940009)"
+       inkscape:export-filename="D:\qaiserlab\writable\uploads\qaiserlab-user.png"
+       inkscape:export-xdpi="25"
+       inkscape:export-ydpi="25">
+      <rect
+         style="fill:#d7e8f2;stroke-width:0.190548"
+         id="rect941"
+         width="80.473747"
+         height="80.473747"
+         x="314.63602"
+         y="171.5954" />
+      <g
+         id="g917"
+         transform="translate(107.64005,8.201147)">
+        <path
+           style="fill:#ececec;fill-opacity:1;stroke:none;stroke-width:0.545097;stroke-linejoin:bevel;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+           d="m 258.09505,180.35963 c -17.63963,-1.78334 -33.62614,8.37761 -35.70675,22.69502 -2.05502,14.2024 9.1462,27.31196 28.42678,26.83371 -10.69287,-5.47721 -17.17142,-12.86502 -15.7665,-22.65156 2.06625,-14.21864 18.61689,-24.24133 36.96681,-22.38624 0.22407,0.0296 0.44778,0.061 0.67111,0.0941 -4.33419,-2.47623 -9.34563,-4.05103 -14.59145,-4.58519 z"
+           id="path4636-0-2-4-5-5"
+           inkscape:connector-curvature="0"
+           sodipodi:nodetypes="cccccccc" />
+        <path
+           style="fill:#128ac5;fill-opacity:1;stroke:none;stroke-width:0.493288;stroke-linejoin:bevel;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+           d="m 233.62701,180.34018 a 25.431005,27.0548 8.9128471 0 0 -14.34025,35.33181 25.431005,27.0548 8.9128471 0 0 32.77964,14.64304 25.906886,27.436747 31.697015 0 1 -22.04816,-16.147 25.906886,27.436747 31.697015 0 1 15.3587,-35.57839 25.906886,27.436747 31.697015 0 1 0.51001,-0.19457 25.431005,27.0548 8.9128471 0 0 -12.25994,1.94511 z"
+           id="path4636-17-0-4"
+           inkscape:connector-curvature="0" />
+        <path
+           style="fill:#005f8e;fill-opacity:1;stroke:none;stroke-width:0.465068;stroke-linejoin:bevel;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+           d="m 256.01115,225.76045 a 23.010636,26.577345 55.876058 0 0 22.12948,-29.57008 23.010636,26.577345 55.876058 0 0 -28.21118,-17.25677 22.980717,27.492642 61.25749 0 1 17.49846,17.20819 22.980717,27.492642 61.25749 0 1 -23.17052,29.65782 22.980717,27.492642 61.25749 0 1 -0.53798,0.10719 23.010636,26.577345 55.876058 0 0 12.29174,-0.14634 z"
+           id="path4636-6-8-91-1"
+           inkscape:connector-curvature="0" />
+        <path
+           style="fill:#128ac5;fill-opacity:1;stroke:none;stroke-width:0.57905;stroke-linejoin:bevel;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+           d="m 252.75272,175.95397 c -17.63963,-2.0124 -33.62614,9.45373 -35.70675,25.61027 -2.05502,16.02676 9.1462,30.82029 28.42678,30.28062 -10.69287,-6.18078 -17.17142,-14.51759 -15.7665,-25.56126 2.06625,-16.04508 18.61689,-27.35521 36.96681,-25.26184 0.22406,0.0334 0.44777,0.0689 0.6711,0.10625 -4.33418,-2.79431 -9.34563,-4.57138 -14.59144,-5.17416 z"
+           id="path4636-0-99-0-6"
+           inkscape:connector-curvature="0"
+           sodipodi:nodetypes="cccccccc" />
+      </g>
+    </g>
+    <g
        id="g15269"
        inkscape:export-filename="D:\cvc\public\assets\images\qaiserlab-sticker.png"
        inkscape:export-xdpi="36.296417"

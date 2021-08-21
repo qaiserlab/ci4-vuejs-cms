@@ -13,7 +13,7 @@ class UserSeeder extends \CodeIgniter\Database\Seeder
     $this->db->table('tb_user')->insert([
       'firstname' => 'Fadlun',
       'lastname' => 'Anaturdasa',
-      'photo' => 'hyun-bin.png',
+      'photo' => 'qaiserlab-user.png',
       'phoneNumber' => '082167028705',
       'email' => 'f.anaturdasa@gmail.com',
       'username' => 'admin',
