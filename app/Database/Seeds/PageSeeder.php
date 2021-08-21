@@ -10,7 +10,7 @@ class PageSeeder extends \CodeIgniter\Database\Seeder
       'slug' => 'curriculum-vitae',
       'image' => 'fadlun-anaturdasa.png',
       'content' => '<p>Penulis
-        adalah seorang Programmer yg telah leabih dari 10 tahun menggeluti dunia
+        adalah seorang Programmer yg telah lebih dari 10 tahun menggeluti dunia
         pemrograman dan IT. Perkenalkan nama saya Fadlun Anaturdasa Wibawa, 
         saya sangat menyukai bidang pekerjaan saya sebagai Programmer. Berikut 
         ini profile lengkap saya;&nbsp;
@@ -23,7 +23,7 @@ class PageSeeder extends \CodeIgniter\Database\Seeder
         <p>Programming Language</p>
         <ul><li>HTML</li><li>CSS</li><li>Javascript</li><li>PHP</li><li>SQL</li></ul>
         <p>Framework/Libraries</p>
-        <ul><li>JQuery</li><li>Vue JS</li><li>Bootstrap</li><li>Express JS</li><li>Code Igniter</li></ul>
+        <ul><li>JQuery</li><li>React JS</li><li>Vue JS</li><li>Bootstrap</li><li>Express JS</li><li>Code Igniter</li></ul>
         <p>Platform Familiar</p>
         <ul><li>Ubuntu</li><li>XAMPP</li><li>NodeJS</li><li>Cordova</li></ul>
         <p>Concept Implementation Experience</p>
