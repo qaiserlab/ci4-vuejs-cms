@@ -38,7 +38,7 @@ CI_ENVIRONMENT = development
 #--------------------------------------------------------------------
 
 database.default.hostname = localhost
-database.default.database = db_cvc
+database.default.database = db_qaiserlab
 database.default.username = root
 database.default.password = m30ng
 database.default.DBDriver = MySQLi
