@@ -20,7 +20,7 @@ CI_ENVIRONMENT = development
 # APP
 #--------------------------------------------------------------------
 
-# app.baseURL = ''
+app.baseURL = 'http://localhost:8080'
 # app.forceGlobalSecureRequests = false
 
 # app.sessionDriver = 'CodeIgniter\Session\Handlers\FileHandler'
@@ -37,12 +37,14 @@ CI_ENVIRONMENT = development
 # DATABASE
 #--------------------------------------------------------------------
 
+database.default.DSN = 
 database.default.hostname = localhost
-database.default.database = db_qaiserlab
 database.default.username = root
 database.default.password = m30ng
+database.default.database = db_qaiserlab
 database.default.DBDriver = MySQLi
 database.default.DBPrefix =
+database.default.port = 3306
 
 # database.tests.hostname = localhost
 # database.tests.database = ci4

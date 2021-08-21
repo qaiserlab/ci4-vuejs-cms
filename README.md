@@ -47,12 +47,16 @@ http://localhost:8080/adminer
 ```
 CI_ENVIRONMENT = development
 
+app.baseURL = 'http://localhost:8080'
+
+database.default.DSN = 
 database.default.hostname = localhost
-database.default.database = db_qaiserlab
 database.default.username = root
 database.default.password = m30ng
+database.default.database = db_qaiserlab
 database.default.DBDriver = MySQLi
 database.default.DBPrefix =
+database.default.port = 3306
 ```
 
 8. Run database migrations
