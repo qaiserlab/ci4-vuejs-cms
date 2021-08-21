@@ -61,6 +61,7 @@ writable/session/*
 
 writable/uploads/*
 !writable/uploads/banner.png
+!writable/uploads/qaiserlab-user.png
 !writable/uploads/index.html
 
 writable/debugbar/*
