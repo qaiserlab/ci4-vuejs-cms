@@ -1,0 +1,32 @@
+version: "3.7"
+
+services:
+  mariadb:
+    container_name: mariadb
+    image: mariadb:5.5
+    ports:
+      - 4406:3306
+    environment:
+      MYSQL_ROOT_PASSWORD: m30ng
+      MYSQL_DATABASE: db_qaiserlab
+    networks:
+      - qaiserlab_network
+    volumes:
+      - ./data/db:/var/lib/mysql
+  qaiserlab:
+    container_name: qaiserlab
+    image: qaiserlab:2.0
+    ports:
+      - 8080:80
+    depends_on:
+      - mariadb  
+    environment:
+      DB_HOST: mariadb
+      DB_PORT: 3306
+    networks:
+      - qaiserlab_network
+    volumes:
+        - .:/var/www/html
+networks:
+  qaiserlab_network:
+    name: qaiserlab_network
