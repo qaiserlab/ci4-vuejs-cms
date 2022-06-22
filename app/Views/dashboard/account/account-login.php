@@ -11,7 +11,7 @@ $this->section('content');
 
     <div class="card">
       <div class="card-body login-card-body">
-        <p class="login-box-msg">Sign in to start your session</p>
+        <p class="login-box-msg">Sign in to start your session.</p>
 
         <form @submit.prevent="submit">
           <alert v-if="response.status == 422" 
