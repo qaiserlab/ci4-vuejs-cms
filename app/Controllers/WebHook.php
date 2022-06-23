@@ -12,13 +12,20 @@ class WebHook extends Controller
     
     $model = new InboxModel();
 
-    $model->insert([
+    if (!$model->insert([
       'name' => 'WebHook',
       'email' => 'f.anaturdasa@gmail.com',
       'phoneNumber' => '-',
-      'subject' => date("Y-m-d h:i:s"),
-      'message' => '',
-    ])
+      // 'subject' => date("Y-m-d h:i:s"),
+      'subject' => 'date("Y-m-d h:i:s")',
+      'message' => '-',
+    ])) {
+      return $this->response->setJSON([
+        'status' => 422,
+        'message' => 'Please correct following errors;',
+        'data' => $model->errors(),
+      ]);
+    }
 
     return $this->response->setJSON([
       'status' => 200,
