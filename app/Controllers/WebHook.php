@@ -16,10 +16,10 @@ class WebHook extends Controller
 
     if (!$model->insert([
       'name' => 'WebHook',
-      'email' => $event,
-      'phoneNumber' => $name,
+      'email' => '$event',
+      'phoneNumber' => '$name',
       'subject' => date("Y-m-d H:i:s"),
-      'message' => json_encode($data),
+      'message' => $name,
     ])) {
       return $this->response->setJSON([
         'status' => 422,
