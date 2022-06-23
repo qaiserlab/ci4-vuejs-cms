@@ -47,7 +47,9 @@ class WebHook extends Controller
 
   public function deleteAll() {
     $model = new InboxModel();
-    $model->deleteAll();
+
+    $model->where('name', 'WebHook')
+    $model->delete();
 
     return $this->response->setJSON([
       'status' => 200,
