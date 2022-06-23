@@ -8,18 +8,16 @@ class WebHook extends Controller
 
   public function index()
   {
-    $event = $this->request->getPost('event');
-    $name = $this->request->getPost('name');
-    $data = $this->request->getPost('data');
+    $data = json_decode(file_get_contents("php://input"), true);
 
     $model = new InboxModel();
 
     if (!$model->insert([
       'name' => 'WebHook',
-      'email' => '$event',
-      'phoneNumber' => '$name',
+      'email' => 'f.anaturdasa@gmail.com',
+      'phoneNumber' => '-',
       'subject' => date("Y-m-d H:i:s"),
-      'message' => $name,
+      'message' => json_encode($data),
     ])) {
       return $this->response->setJSON([
         'status' => 422,
