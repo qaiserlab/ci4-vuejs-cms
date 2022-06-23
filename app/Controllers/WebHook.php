@@ -17,7 +17,7 @@ class WebHook extends Controller
       'email' => 'f.anaturdasa@gmail.com',
       'phoneNumber' => '-',
       'subject' => date("Y-m-d H:i:s"),
-      'message' => implode("", $data),
+      'message' => json_encode($data),
     ])) {
       return $this->response->setJSON([
         'status' => 422,
@@ -42,6 +42,16 @@ class WebHook extends Controller
       'status' => 200,
       'message' => 'Get WebHook Success',
       'data' => $data,
+    ]);
+  }
+
+  public function deleteAll() {
+    $model = new InboxModel();
+    $model->deleteAll();
+
+    return $this->response->setJSON([
+      'status' => 200,
+      'message' => 'Clear WebHook Success',
     ]);
   }
 }
