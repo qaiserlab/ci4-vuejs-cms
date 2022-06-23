@@ -16,8 +16,7 @@ class WebHook extends Controller
       'name' => 'WebHook',
       'email' => 'f.anaturdasa@gmail.com',
       'phoneNumber' => '-',
-      // 'subject' => date("Y-m-d h:i:s"),
-      'subject' => 'date("Y-m-d h:i:s")',
+      'subject' => date("Y-m-d H:i:s"),
       'message' => implode("", $data),
     ])) {
       return $this->response->setJSON([
