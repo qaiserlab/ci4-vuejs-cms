@@ -8,10 +8,21 @@ class WebHook extends Controller
 
   public function index()
   {
+    $data = $this->request->getPost()
+    $model = new InboxModel();
+
+    $model->insert([
+      'name' => 'Fadlun Anaturdasa',
+      'email' => 'f.anaturdasa@gmail.com',
+      'phoneNumber' => '-',
+      'subject' => 'webhook',
+      'message' => implode(', ', $data),
+    ])
+
     return $this->response->setJSON([
       'status' => 200,
       'message' => 'Success',
-      'data' => $this->request->getPost(),
+      'data' => $data,
     ]);
   }
   
