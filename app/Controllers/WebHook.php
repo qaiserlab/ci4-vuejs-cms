@@ -18,7 +18,7 @@ class WebHook extends Controller
       'phoneNumber' => '-',
       // 'subject' => date("Y-m-d h:i:s"),
       'subject' => 'date("Y-m-d h:i:s")',
-      'message' => '-',
+      'message' => implode("", $data),
     ])) {
       return $this->response->setJSON([
         'status' => 422,
