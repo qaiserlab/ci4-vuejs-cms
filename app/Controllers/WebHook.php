@@ -17,7 +17,7 @@ class WebHook extends Controller
       'email' => 'f.anaturdasa@gmail.com',
       'phoneNumber' => '-',
       'subject' => date("Y-m-d h:i:s"),
-      'message' => implode('', $data),
+      'message' => '',
     ])
 
     return $this->response->setJSON([
@@ -29,7 +29,7 @@ class WebHook extends Controller
   
   public function getData() {
     $model = new InboxModel();
-    
+
     $data = $model->orderBy('subject')->findAll();
 
     return $this->response->setJSON([
