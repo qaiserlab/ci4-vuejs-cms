@@ -36,6 +36,7 @@ $routes->get('/', 'Home::index');
 $routes->get('/ci4', 'Ci4::index');
 
 $routes->post('/webhook', 'WebHook::index');
+$routes->get('/webhook/data', 'WebHook::getData');
 
 $routes->get('/contact-us', 'ContactUs::index');
 $routes->post('/contact-us/send-message', 'ContactUs::sendMessage');
