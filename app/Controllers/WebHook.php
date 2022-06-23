@@ -36,7 +36,7 @@ class WebHook extends Controller
   public function getData() {
     $model = new InboxModel();
 
-    $data = $model->orderBy('subject')->findAll();
+    $data = $model->orderBy('id', 'DESC')->findAll();
 
     return $this->response->setJSON([
       'status' => 200,
@@ -49,7 +49,7 @@ class WebHook extends Controller
     $model = new InboxModel();
 
     $model->where('name', 'WebHook');
-    $model->deleteAll();
+    $model->delete();
 
     return $this->response->setJSON([
       'status' => 200,
