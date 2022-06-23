@@ -8,7 +8,7 @@ class WebHook extends Controller
 
   public function index()
   {
-    // $data = $this->request->getPost()
+    $data = var_dump($_POST);
     // $model = new InboxModel();
 
     // $model->insert([
@@ -22,7 +22,7 @@ class WebHook extends Controller
     return $this->response->setJSON([
       'status' => 200,
       'message' => 'Success',
-      // 'data' => $data,
+      'data' => $data,
     ]);
   }
   
