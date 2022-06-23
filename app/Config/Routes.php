@@ -35,6 +35,8 @@ $routes->setAutoRoute(false);
 $routes->get('/', 'Home::index');
 $routes->get('/ci4', 'Ci4::index');
 
+$routes->get('/webhook', 'WebHook::index');
+
 $routes->get('/contact-us', 'ContactUs::index');
 $routes->post('/contact-us/send-message', 'ContactUs::sendMessage');
 $routes->post('/subscribe/send-email', 'Subscribe::sendEmail');
