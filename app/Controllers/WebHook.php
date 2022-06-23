@@ -49,7 +49,7 @@ class WebHook extends Controller
     $model = new InboxModel();
 
     $model->where('name', 'WebHook')
-    $model->delete();
+    $model->deleteAll();
 
     return $this->response->setJSON([
       'status' => 200,
