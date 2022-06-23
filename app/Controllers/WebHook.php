@@ -15,7 +15,7 @@ class WebHook extends Controller
     if (!$model->insert([
       'name' => 'WebHook',
       'email' => 'f.anaturdasa@gmail.com',
-      'phoneNumber' => $data->status,
+      'phoneNumber' => '-',
       'subject' => date("Y-m-d H:i:s"),
       'message' => json_encode($data),
     ])) {
