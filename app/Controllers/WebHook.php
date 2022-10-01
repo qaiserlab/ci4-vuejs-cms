@@ -2,6 +2,7 @@
 
 use CodeIgniter\Exceptions\PageNotFoundException;
 use App\Models\InboxModel;
+use App\Models\UserModel;
 
 class WebHook extends Controller
 {
@@ -34,13 +35,23 @@ class WebHook extends Controller
   }
   
   public function getData() {
-    $model = new InboxModel();
+    // $model = new InboxModel();
+
+    // $data = $model->orderBy('id', 'DESC')->findAll();
+
+    // return $this->response->setJSON([
+    //   'status' => 200,
+    //   'message' => 'Get WebHook Success',
+    //   'data' => $data,
+    // ]);
+
+    $model = new UserModel();
 
     $data = $model->orderBy('id', 'DESC')->findAll();
 
     return $this->response->setJSON([
       'status' => 200,
-      'message' => 'Get WebHook Success',
+      'message' => 'Get User Success',
       'data' => $data,
     ]);
   }
